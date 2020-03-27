@@ -1,0 +1,162 @@
+*{padding: 0;margin: 0 auto;-webkit-user-select:none;
+user-select: none;
+-moz-user-select: none;
+}
+body
+{
+	background-image: url(camera_glasses_magnifying_glass_map_maps_notebook_notepad_notes_old_tour_travel_4608x3456.jpg);
+	background-attachment: fixed;object-position: center;
+	background-size: cover;
+	
+}
+#body2
+{
+	background-image: url(camera_glasses_magnifying_glass_map_maps_notebook_notepad_notes_old_tour_travel_4608x3456.jpg);
+	background-attachment: fixed;object-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	background-position: center;
+}
+#container
+{
+	width: 100%;
+	min-height: 97vh;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+#log
+{
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	box-shadow: 0px 0px 30px #222;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	object-position: center;
+}
+#log #pro img
+{
+	width:200px; 
+	height: 200px;
+	border-radius: 100px;margin: 20px;
+	box-shadow: 0px 0px 50px #ccc;transition: 1s;
+}
+#log #pro img:hover
+{
+	width:200px; 
+	height: 200px;
+	border-radius: 100px;margin: 20px;
+	box-shadow: 0px 0px 50px #ccc;
+    transition: 1s;
+    transform:rotate(1380deg);
+}
+#log #pro h3
+{
+	color: dimgray;
+	padding: 20px;justify-content: center;
+	font-size: 18px;
+    
+	font-family: sans-serif;
+}
+form h2
+{
+	color: dimgray;
+	padding: 20px;justify-content: center;
+	font-size: 30px;text-align: center;
+	font-family: sans-serif;
+}
+#pro
+{
+	padding: 30px;
+}
+#log form
+{
+	padding:30px;
+}
+#log form input
+{
+	margin: 10px;
+	padding: 15px;
+}
+#log form input[type="text"],#log form input[type="email"], #log form input[type="password"], #log form input[type="submit"]
+{
+	width: 300px;
+	border: 0 solid #fff;
+	background: #eaeaea;
+	border-radius: 50px;
+}
+#log form input[type="submit"]
+{
+	width: 300px;
+	border: 0 solid #fff;
+	background-color:saddlebrown;
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: sans-serif;
+	border-radius: 50px;
+}
+#log form input[type="submit"]:hover
+{
+	background-color:#555;
+	color: aliceblue;;
+}
+#log a
+{
+	text-decoration: none;
+	color: darkgreen;
+	align-content: center;
+	float: right;
+	padding: 20px;
+	text-align-last: right;
+}
+footer
+{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: aliceblue;
+	flex-wrap: wrap;
+}
+nav
+{
+    background: #fff;
+    width:100%;align-items: center;
+    height:80px;position: fixed;
+    object-position: center;
+    border-bottom: 8px solid darkred;
+    display: flex;
+    box-shadow: 0px 0px 5px #555;
+    flex-wrap: wrap;
+}
+nav h1
+{
+    align-items: center;
+    object-position: center;
+    font-size: 50px;
+    color: #333;
+    font-family: sans-serif;
+}
+#menu a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;
+    padding:29px;
+}
+#menu a:hover
+{
+    background: darkred;
+    color: #fff;
+}#menu .act
+{
+    background: #eee;
+}
+form p
+{
+    width:500px;
+    font-size: 20px;
+}
